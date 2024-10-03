@@ -1,5 +1,3 @@
-Ppt Link: https://www.canva.com/design/DAGRePOdCkA/iLIRPI4cIYVP0vWxU2K4Cw/edit?utm_content=DAGRePOdCkA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
 # FashionMNIST Classifier with Pretrained ResNet
 
 This project implements a FashionMNIST classifier using a pretrained ResNet-18 model for feature extraction, followed by a fully connected classifier for classification. The model is fine-tuned and evaluated on the FashionMNIST dataset, and predictions can be visualized using a Tkinter GUI.
