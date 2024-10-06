@@ -6,20 +6,21 @@
 ## Introduction
 This project uses the YOLOv10 model to perform object detection on a video stream. The model is trained on the COCO dataset and can detect 80 different classes of objects.
 
-### Requirements
+## Requirements
 Python 3.8+\
 ultralytics\
 OpenCV\
 cvzone\
 math
 
-### Installation
+## Installation
 To install the required libraries, run the following command:
 
-### #bash
+```bash
 pip install ultralytics opencv-python cvzone
+```
 
-### Code Explanation
+## Code Explanation
 The code uses the YOLOv10 model to detect objects in a video stream. Here's a brief explanation of the code:
 
 The script starts by importing the required libraries and loading the YOLOv10 model.\
@@ -29,7 +30,7 @@ The script then loops through the detected objects and draws bounding boxes arou
 The class name and confidence score are displayed on top of the bounding box using cvzone.putTextRect.\
 Finally, the output is displayed using cv2.imshow.
 
-### Example Use Cases
+## Example Use Cases
 Object detection in surveillance videos\
 Autonomous vehicles\
 Robotics\
